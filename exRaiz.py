@@ -6,5 +6,5 @@ dobro = n1 * 2
 triplo = n1 * 3
 raiz = n1 ** (1/2)
 
-print('Dobro: {}\nTriplo: {}\nRaiz: {}'.format(dobro, triplo, raiz))
+print('Dobro: {}\nTriplo: {}\nRaiz: {:.2f}'.format(dobro, triplo, raiz))
 
