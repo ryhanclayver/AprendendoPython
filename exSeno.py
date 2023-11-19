@@ -1,4 +1,5 @@
 import math
 
-ang = int(input('Digite o valor do ângulo: '))
-print(f'Seno: {math.sin(ang):.2f}\nCosseno: {math.cos(ang):.2f}\nTangente: {math.tan(ang):.2f}')
+ang = float(input('Digite o valor do ângulo: '))
+print(f'Seno: {math.sin(math.radians(ang)):.2f}\nCosseno: {math.cos(math.radians(ang)):.2f}\nTangente: {math.tan(math.radians(ang)):.2f}')
+
