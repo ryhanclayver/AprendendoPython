@@ -1,4 +1,3 @@
-nome = input("Digite o seu nome completo: ")
-print(f'Primeiro nome: {nome.split()[0]}')
-print(f'Segundo nome: {nome.rsplit(maxsplit=1)[1]}')
-
+nome = input("Digite o seu nome completo: ").strip().split()
+print(f'Primeiro nome: {nome[0]}')
+print(f'Segundo nome: {nome[len(nome)-1]}')
