@@ -1,5 +1,5 @@
 frase = str(input('Digite uma frase: ')).strip()
 a = frase.lower()
 print(f'Apareceram {a.count('a')} letras "A"')
-print(f'Ela aparece pela primeira vez na posição {frase.find('a')}')
-print(f'Ela aparece pela última vez na posição {frase.rfind('a')}')
+print(f'Ela aparece pela primeira vez na posição {frase.find('a')+1}')
+print(f'Ela aparece pela última vez na posição {frase.rfind('a')+1}')
